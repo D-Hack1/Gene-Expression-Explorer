@@ -1,4 +1,5 @@
-🧬 Gene Expression Explorer
+🧬 **Gene Expression Explorer**
+
 🔍 Overview
 Gene Expression Explorer is a Streamlit-based interactive web application designed to:
 
