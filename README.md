@@ -74,7 +74,7 @@ Model Format: joblib
 
 1. Clone the repository
 
-git clone https://github.com/your-username/gene-expression-explorer.git
+git clone [https://github.com/your-username/gene-expression-explorer](https://github.com/D-Hack1/Gene-Expression-Explorer).git
 cd gene-expression-explorer
 2. Install dependencies
 
