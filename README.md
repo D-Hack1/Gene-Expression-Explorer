@@ -1,6 +1,7 @@
 🧬 **Gene Expression Explorer**
 
 🔍 Overview
+
 Gene Expression Explorer is a Streamlit-based interactive web application designed to:
 
 🔬 Predict disease risk using synthetic gene expression data and a trained machine learning model.
@@ -14,7 +15,9 @@ Gene Expression Explorer is a Streamlit-based interactive web application design
 This app is built as a hackathon project to demonstrate practical applications of bioinformatics and machine learning in genomics.
 
 🚀 Features
+
 🧪 Disease Risk Prediction
+
 Input gene expression values:
 
 Full gene set (20 synthetic genes)
@@ -30,11 +33,13 @@ Visual comparison of input gene expression with healthy average
 Probability distribution over predicted disease classes
 
 🔍 Gene Symbol Lookup
+
 Search a gene symbol and retrieve its description from NCBI Entrez
 
 Includes fallback to synthetic descriptions for demo genes
 
 🧬 Disease-wise Gene Profile
+
 Select a disease to:
 
 View mean expression of all genes for that disease
@@ -42,6 +47,7 @@ View mean expression of all genes for that disease
 Compare with healthy gene expression profile (NEWLY ADDED)
 
 📈 Interactive Visualizations
+
 Plotly-based charts for:
 
 Class probabilities
@@ -51,6 +57,7 @@ Expression comparison
 Disease-specific gene profiles
 
 🧰 Tech Stack
+
 Frontend/UI: Streamlit
 
 Machine Learning: scikit-learn (trained classifier, label encoder)
@@ -64,6 +71,7 @@ Bioinformatics API: Biopython (Entrez for NCBI access)
 Model Format: joblib
 
 🛠️ Setup Instructions
+
 1. Clone the repository
 
 git clone https://github.com/your-username/gene-expression-explorer.git
@@ -71,6 +79,7 @@ cd gene-expression-explorer
 2. Install dependencies
 
 pip install -r requirements.txt
+
 3. Add model and data files
 Ensure the following files are placed in the root directory:
 
